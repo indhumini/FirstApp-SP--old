@@ -15,6 +15,7 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { ItemComponent } from './components/item/item.component';
 import { CustomproductComponent } from './components/customproduct/customproduct.component';
 import { DeliveryComponent } from './components/delivery/delivery.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { DeliveryComponent } from './components/delivery/delivery.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

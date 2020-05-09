@@ -1,0 +1,21 @@
+.center {
+    display: block;
+    margin-left:50%;
+    margin-right: 50%;
+    width: 30%;
+  }
+  .center.searchone{
+      align-self: center;
+      
+  }
+.center.bar{
+    margin-right: auto;
+    margin-right: auto;
+}
+
+
+  .form { 
+    margin:5; 
+    width:200px;
+    margin-top: 15%;
+    }

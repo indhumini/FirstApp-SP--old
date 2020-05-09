@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FirstApp": {
+    "firstapp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/FirstApp",
+            "outputPath": "dist/firstapp",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,10 +23,17 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            
+            "styles":["src/styles.css" ] ,
+
+
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery.zoom.min.js",
+              "src/assets/js/nouislider.min.js",
+              "src/assets/js/slick.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -62,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "FirstApp:build"
+            "browserTarget": "firstapp:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "FirstApp:build:production"
+              "browserTarget": "firstApp:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FirstApp:build"
+            "browserTarget": "firstapp:build"
           }
         },
         "test": {
@@ -88,16 +95,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "../src/styles.css"
             ],
-            "scripts": [
-              "src/assets/js/bootstrap.min.js",
-              "src/assets/js/jquery.min.js",
-              "src/assets/js/jquery.zoom.min.js",
-              "src/assets/js/nouislider.min.js",
-              "src/assets/js/slick.min.js",
-              "src/assets/js/main.js"
-            ]
+
+            "scripts": []
           }
         },
         "lint": {
@@ -117,15 +118,17 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "FirstApp:serve"
+            "devServerTarget": "firstapp:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "FirstApp:serve:production"
+              "devServerTarget": "firstapp:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "FirstApp"
-}
+  "defaultProject": "firstapp"
+    }
+
+

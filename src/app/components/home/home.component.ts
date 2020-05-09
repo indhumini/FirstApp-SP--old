@@ -8,12 +8,14 @@ import { ProductService } from 'src/app/service/product.service';
 })
 export class HomeComponent implements OnInit {
 
+  products: any[]=[];
+
   constructor(private productService:ProductService) { }
 
-  ngOnInit(): void {
-    this.productService.showMessage();
-    
+  ngOnInit() {
+    this.productService.getAllProducts().subscribe((prods: {count:Number,products:any[]}) => {
+      console.log(prods);
+      
+    });
   }
-
-
 }
