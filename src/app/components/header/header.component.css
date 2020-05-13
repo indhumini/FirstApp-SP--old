@@ -19,3 +19,18 @@
     width:200px;
     margin-top: 15%;
     }
+
+    .size{
+        width: 250px;
+        height:40px ;
+    }
+
+    .cart{
+        margin-right: 10px;
+        margin-top: 170px;
+    }
+
+    .cartfont{
+        font-weight: 200;
+        color: brown;
+    }
