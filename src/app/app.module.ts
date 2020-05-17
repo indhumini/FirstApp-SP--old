@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, HammerModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -16,6 +16,14 @@ import { ItemComponent } from './components/item/item.component';
 import { CustomproductComponent } from './components/customproduct/customproduct.component';
 import { DeliveryComponent } from './components/delivery/delivery.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CategoriesComponent } from './components/categories/categories.component';
+import { MaincategoriesComponent } from './maincategories/maincategories.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -29,15 +37,25 @@ import { HttpClientModule } from '@angular/common/http';
     RegistrationComponent,
     ItemComponent,
     CustomproductComponent,
-    DeliveryComponent
+    DeliveryComponent,
+    CategoriesComponent,
+    MaincategoriesComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    HammerModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
