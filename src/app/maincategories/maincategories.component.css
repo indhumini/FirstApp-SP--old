@@ -15,3 +15,11 @@
   top: 0;
   z-index: 1;
 }
+
+.alignment{
+  margin-left: 10%;
+}
+
+.topmargin{
+  margin-top: 50px;
+}

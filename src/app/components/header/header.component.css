@@ -42,3 +42,8 @@
     .image{
         text-align: 20%;
     }
+
+    .container {
+        margin-right: 0;
+        margin-left: 15%;
+    }
