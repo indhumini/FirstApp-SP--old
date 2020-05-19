@@ -29,6 +29,7 @@ import { SpecialOccasionCakesComponent } from './components/categories/special-o
 import { CookiesCupcakesComponent } from './components/categories/cookies-cupcakes/cookies-cupcakes.component';
 import { DessertsComponent } from './components/categories/desserts/desserts.component';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { WeddingCakesComponent } from './components/categories/wedding-cakes/wedding-cakes.component';
 
 
 
@@ -52,7 +53,9 @@ import { CategoriesComponent } from './components/categories/categories.componen
     CookiesCupcakesComponent,
     DessertsComponent,
     CategoriesComponent,
-    BirthdayCakesComponent
+    BirthdayCakesComponent,
+    WeddingCakesComponent,
+    
     
   ],
   imports: [
@@ -69,13 +72,7 @@ import { CategoriesComponent } from './components/categories/categories.componen
     MatCardModule,
     MatSidenavModule,
     MatListModule,
-    BrowserDynamicTestingModule,
-    CorporateCakesComponent,
-    SpecialOccasionCakesComponent,
-    CookiesCupcakesComponent,
-    DessertsComponent,
-    CategoriesComponent,
-    BirthdayCakesComponent
+    BrowserDynamicTestingModule
   ],
 
 

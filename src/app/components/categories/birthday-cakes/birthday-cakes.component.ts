@@ -9,7 +9,7 @@ export class BirthdayCakesComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
