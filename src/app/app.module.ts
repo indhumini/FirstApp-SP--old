@@ -23,7 +23,6 @@ import { MatListModule}from  '@angular/material/list';
 import { MatButtonModule}from  '@angular/material/button';
 import { MatMenuModule}from  '@angular/material/menu';
 import { MatCardModule}from  '@angular/material/card';
-import { WeddingCakesComponent } from './components/categories/wedding-cakes/wedding-cakes.component';
 import { BirthdayCakesComponent } from './components/categories/birthday-cakes/birthday-cakes.component';
 import { CorporateCakesComponent } from './components/categories/corporate-cakes/corporate-cakes.component';
 import { SpecialOccasionCakesComponent } from './components/categories/special-occasion-cakes/special-occasion-cakes.component';
@@ -48,7 +47,6 @@ import { CategoriesComponent } from './components/categories/categories.componen
     CustomproductComponent,
     DeliveryComponent,
     MaincategoriesComponent,
-    WeddingCakesComponent,
     CorporateCakesComponent,
     SpecialOccasionCakesComponent,
     CookiesCupcakesComponent,
@@ -72,7 +70,6 @@ import { CategoriesComponent } from './components/categories/categories.componen
     MatSidenavModule,
     MatListModule,
     BrowserDynamicTestingModule,
-    WeddingCakesComponent,
     CorporateCakesComponent,
     SpecialOccasionCakesComponent,
     CookiesCupcakesComponent,

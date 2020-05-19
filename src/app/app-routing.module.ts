@@ -8,7 +8,6 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { CartComponent } from './components/cart/cart.component';
 import { CustomproductComponent } from './components/customproduct/customproduct.component';
 import { DeliveryComponent } from './components/delivery/delivery.component';
-import { WeddingCakesComponent } from './components/categories/wedding-cakes/wedding-cakes.component';
 import { CorporateCakesComponent } from './components/categories/corporate-cakes/corporate-cakes.component';
 import { SpecialOccasionCakesComponent } from './components/categories/special-occasion-cakes/special-occasion-cakes.component';
 import { CookiesCupcakesComponent } from './components/categories/cookies-cupcakes/cookies-cupcakes.component';
@@ -40,7 +39,27 @@ const routes: Routes = [
     {
       path:'delivery/:id',component:DeliveryComponent
     },
-   
+    {
+      path:'customproductcomponenet',component:CustomproductComponent
+    },
+    {
+      path:'coporatecakes',component:CorporateCakesComponent
+    },
+    {
+      path:'specialoccasioncake',component:SpecialOccasionCakesComponent
+    },
+    {
+      path:'cookies-cupcakes',component:CookiesCupcakesComponent
+    },
+    {
+      path:'dessert',component:DessertsComponent
+    },
+    {
+      path:'categories',component:CategoriesComponent
+    },
+    {
+      path:'birthdaycakes',component:BirthdayCakesComponent
+    },
 
 ];
 
