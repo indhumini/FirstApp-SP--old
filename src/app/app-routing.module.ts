@@ -8,6 +8,13 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { CartComponent } from './components/cart/cart.component';
 import { CustomproductComponent } from './components/customproduct/customproduct.component';
 import { DeliveryComponent } from './components/delivery/delivery.component';
+import { BirthdayCakesComponent } from './components/categories/birthday-cakes/birthday-cakes.component';
+import { WeddingCakesComponent } from './components/categories/wedding-cakes/wedding-cakes.component';
+import { CorporateCakesComponent } from './components/categories/corporate-cakes/corporate-cakes.component';
+import { SpecialOccasionCakesComponent } from './components/categories/special-occasion-cakes/special-occasion-cakes.component';
+import { CookiesCupcakesComponent } from './components/categories/cookies-cupcakes/cookies-cupcakes.component';
+import { DessertsComponent } from './components/categories/desserts/desserts.component';
+import { CategoriesComponent } from './components/categories/categories.component';
 
 
 const routes: Routes = [
@@ -34,7 +41,28 @@ const routes: Routes = [
     {
       path:'delivery/:id',component:DeliveryComponent
     },
-    
+    {
+      path:'birthday-cakes',component:BirthdayCakesComponent
+    },
+    {
+      path:'wedding_cakes',component:WeddingCakesComponent
+    },
+    {
+      path:'corporate_cakes',component:CorporateCakesComponent
+    },
+    {
+      path:'special_occasion_cakes',component:SpecialOccasionCakesComponent
+    },
+    {
+      path:'cookies_cupcakes',component:CookiesCupcakesComponent
+    },
+    {
+      path:'desserts',component:DessertsComponent
+    },
+    {
+      path:'categories',component:CategoriesComponent
+    }
+
 ];
 
 @NgModule({

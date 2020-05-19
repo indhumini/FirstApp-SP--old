@@ -24,6 +24,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { BirthdaycakesComponent } from './birthdaycakes/birthdaycakes.component';
+import { BirthdayCakesComponent } from './components/categories/birthday-cakes/birthday-cakes.component';
+import { WeddingCakesComponent } from './components/categories/wedding-cakes/wedding-cakes.component';
+import { CorporateCakesComponent } from './components/categories/corporate-cakes/corporate-cakes.component';
+import { SpecialOccasionCakesComponent } from './components/categories/special-occasion-cakes/special-occasion-cakes.component';
+import { CookiesCupcakesComponent } from './components/categories/cookies-cupcakes/cookies-cupcakes.component';
+import { DessertsComponent } from './components/categories/desserts/desserts.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +46,14 @@ import { MatListModule } from '@angular/material/list';
     CustomproductComponent,
     DeliveryComponent,
     CategoriesComponent,
-    MaincategoriesComponent
+    MaincategoriesComponent,
+    BirthdaycakesComponent,
+    BirthdayCakesComponent,
+    WeddingCakesComponent,
+    CorporateCakesComponent,
+    SpecialOccasionCakesComponent,
+    CookiesCupcakesComponent,
+    DessertsComponent
   ],
   imports: [
     BrowserModule,

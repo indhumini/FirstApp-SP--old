@@ -8,36 +8,32 @@
                 <li><a href="#"><i class="fa fa-envelope-o"></i>sprinkles_bakery@gmail.com</a></li>
                 <li><a href="#"><i class="fa fa-map-marker"></i>297/1,Temple Road,Dalugama,Kelaniya</a></li>
             </ul>
-            <ul class="header-links pull-right">
-                <li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
+            <ul class="header-links pull-right" style="margin-right:50px;">
+                <li><a href="#" style="margin-left: 50px;"><i class="fa fa-user-o"></i> My Account</a></li>
             </ul>
         </div>
     </div>
     <!-- /TOP HEADER -->
 
     <!-- MAIN HEADER -->
-    <div id="header">
+    
+    <div id="header" style="height: 100px;">
         <!-- container -->
-        <div class="container" class="container" >
+        <div class="container" >
             <!-- row -->
-            <div class="row">
-                <!-- LOGO -->
-                <div class="col-md-10">
-                    <div class="header-logo">
-                        <a href="#" class="logo">
-                            
-                            <img src="/assets/img/logo.png" alt="" width="200" height="150" class="center" >
-                        </a>
-                    </div>
-                </div>
-                <!-- /LOGO -->
+            <div class="row" class="rowsize">
+                <a href="#" class="logo">
 
+                    <img src="/assets/img/logo.png" alt=""class="center" style="height: 90px; width: 150px;margin-top: -10px; margin-left: 50px;">
+                </a>
+               
                 <!-- SEARCH BAR -->
-                <div class="col-md-10" >
+                   <div class="col-md-10"  style="height: 20px;">
                     <div class="header-search">
-                        <form >
+                        <form style="margin-left: 300px;margin-top: -80px;">
                             <select class="input-select" >
                                 <option value="0">All Categories</option> 
+                                <option value="0">All Categories</option>
                                 <option value="1">Birthday Cakes</option>
                                 <option value="1">Wedding Cakes</option>
                                 <option value="1">Cookies</option>
@@ -47,59 +43,58 @@
                             <input class="input" placeholder="Search here" class="size">
                             <button class="search-btn" >Search</button>
                         </form>
-                    </div>
-                </div>
-                <!-- /SEARCH BAR -->
+                    </div></div>
+                    <!-- /SEARCH BAR -->
 
+                    <!-- Cart -->
+                   <div class="dropdown" class="cart" style="margin-top: -5%;float:right;">
+                      <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                          <i class="fa fa-shopping-cart"></i>
+                          <span class="cartfont" style="margin-right: 50px; margin-top: -100px;">Your Cart</span>
+                         <div class="qty">3</div>
+                      </a>
+                      <div class="cart-dropdown">
+                          <div class="cart-list">
+                              <div class="product-widget">
+                                  <div class="product-img">
+                                      <img src="./img/product01.png" alt="">
+                                  </div>
+                                  <div class="product-body">
+                                      <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                      <h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
+                                  </div>
+                                  <button class="delete"><i class="fa fa-close"></i></button>
+                              </div>
 
-                <!-- Cart -->
-                        <div class="dropdown" class="cart">
-                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-                                <i class="fa fa-shopping-cart"></i>
-                                <span class="cartfont">Your Cart</span>
-                               <!--<div class="qty">3</div>-->
-                            </a>
-                            <div class="cart-dropdown">
-                                <div class="cart-list">
-                                    <div class="product-widget">
-                                        <div class="product-img">
-                                            <img src="./img/product01.png" alt="">
-                                        </div>
-                                        <div class="product-body">
-                                            <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                            <h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
-                                        </div>
-                                        <button class="delete"><i class="fa fa-close"></i></button>
-                                    </div>
-
-                                    <div class="product-widget">
-                                        <div class="product-img">
-                                            <img src="./img/product02.png" alt="">
-                                        </div>
-                                        <div class="product-body">
-                                            <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                            <h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
-                                        </div>
-                                        <button class="delete"><i class="fa fa-close"></i></button>
-                                    </div>
-                                </div>
-                                <div class="cart-summary">
-                                    <small>3 Item(s) selected</small>
-                                    <h5>SUBTOTAL: $2940.00</h5>
-                                </div>
-                                <div class="cart-btns">
-                                    <a href="#">View Cart</a>
-                                    <a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Cart -->
+                              <div class="product-widget">
+                                  <div class="product-img">
+                                      <img src="./img/product02.png" alt="">
+                                  </div>
+                                  <div class="product-body">
+                                      <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                      <h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
+                                  </div>
+                                  <button class="delete"><i class="fa fa-close"></i></button>
+                              </div>
+                          </div>
+                          <div class="cart-summary">
+                              <small>3 Item(s) selected</small>
+                              <h5>SUBTOTAL: $2940.00</h5>
+                          </div>
+                          <div class="cart-btns">
+                              <a href="#">View Cart</a>
+                              <a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- /Cart -->
 
 
                 <!-- ACCOUNT -->
                 <div class="col-md-3 clearfix">
                     <div class="header-ctn">
                        
+
                         <!-- Menu Toogle -->
                         <div class="menu-toggle">
                             <a href="#">
@@ -115,23 +110,27 @@
             <!-- row -->
         </div>
         <!-- container -->
+        
     </div>
     <!-- /MAIN HEADER -->
 </header>
 <!-- /HEADER -->
 
+
+
 <!-- NAVIGATION -->
-<nav id="navigation">
+<nav id="navigation" >
     <!-- container -->
-    <div class="container">
+    <div class="container"  style="height: 50px;">
         <!-- responsive-nav -->
-        <div id="responsive-nav">
+        <div id="responsive-nav" >
             <!-- NAV -->
-            <ul class="main-nav nav navbar-nav"  style="list-style-type:disc">
+            <ul class="main-nav nav navbar-nav"  style="list-style-type:disc" style="margin-top: -10px;">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
                 
+
             </ul>
             <!-- /NAV -->
         </div>
@@ -139,4 +138,4 @@
     </div>
     <!-- /container -->
 </nav>
-<!-- /NAVIGATION -->
+<!-- /NAVIGATION --> 
