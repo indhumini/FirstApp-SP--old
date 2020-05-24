@@ -14,6 +14,7 @@ import { CookiesCupcakesComponent } from './components/categories/cookies-cupcak
 import { DessertsComponent } from './components/categories/desserts/desserts.component';
 import { CategoriesComponent } from './components/categories/categories.component';
 import { BirthdayCakesComponent } from './components/categories/birthday-cakes/birthday-cakes.component';
+import { WeddingCakesComponent } from './components/categories/wedding-cakes/wedding-cakes.component';
 
 
 
@@ -63,7 +64,13 @@ const routes: Routes = [
     },
     {
       path:'birthdaycakes',component:BirthdayCakesComponent
-    }
+    },
+    {
+      path:'weddingcakes',component:WeddingCakesComponent
+    },
+    
+    
+
 
 ];
 
